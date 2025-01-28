@@ -1,7 +1,7 @@
 /* =================================================================== 
  * Prabal gautam Main Stylesheet
  * Template Ver. 1.0.0
- * 02-15-2021
+ * 
  * ------------------------------------------------------------------
  *
  * TOC:
@@ -184,6 +184,24 @@
     --border-radius : 3px;
 }
 
+
+.folio-list__item-thumb {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.folio-list__item-thumb img {
+    width: 400px;
+    height: 250px;
+    transition: all 0.3s ease-in-out;
+}
+
+.folio-list__item-thumb:hover img {
+    transform: scale(1.05);
+}
 /* ------------------------------------------------------------------- 
  * ## spacing and typescale
  * ------------------------------------------------------------------- */
@@ -318,7 +336,7 @@ html {
 }
 
 body {
-    margin : 0;
+    margin : 1%;
 }
 
 main {
@@ -3414,8 +3432,8 @@ img.u-pull-left {
 }
 
 .about-info__text {
-    padding     : var(--vspace-3_5) 10vw var(--vspace-2) 0;
-    margin-left : -4rem;
+    padding     : var(--vspace-3_5) 5vw var(--vspace-2) 0;
+    margin-left : -12rem;
 }
 
 .about-info__text .text-pretitle {
