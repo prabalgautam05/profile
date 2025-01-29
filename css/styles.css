@@ -3427,13 +3427,14 @@ img.u-pull-left {
 
 .about-info__pic {
     object-fit     : cover;
-    margin         : 0;
+    margin : 0;
     vertical-align : bottom;
 }
 
 .about-info__text {
-    padding     : var(--vspace-4) 6vw var(--vspace-2_5) 0;
-    margin-left : -14rem;
+    padding     : var(--vspace-3_5) 10vw var(--vspace-2) 0;
+    margin-left : -4rem;
+    color: #ffffff;
 }
 
 .about-info__text .text-pretitle {
