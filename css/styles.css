@@ -3102,11 +3102,17 @@ img.u-pull-left {
  * responsive:
  * site-header
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .main-nav-wrap {
-        width : 100%;
+        width: 80%; 
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
+    
 }
+
+
 
 @media screen and (max-width: 800px) {
     .s-header {
