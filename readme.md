@@ -72,7 +72,10 @@ class PrabalGautam:
 ### 🔧 Frameworks & Tools
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django REST](https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq%20API-F55036?style=for-the-badge&logo=thunderbird&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![AWS EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -82,62 +85,156 @@ class PrabalGautam:
 
 ---
 
-## 🚀 Signature Projects
+## 🚀 Project Universe
+
+> *From AI assistants to biometric auth — a full-spectrum builder.*
+
+### 🤖 AI & Machine Learning
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌙 Hybrid AI Dream Interpretation System
-> *Python · Django · Transformers · Groq API*
+#### 🌙 DreamVista — AI Dream Interpreter
+> *Python · Django · Gemini API · NLP*
+> &nbsp;[![Repo](https://img.shields.io/badge/GitHub-Repo-7c3aed?style=flat-square&logo=github)](https://github.com/prabalgautam05/dreamvista) [![Live](https://img.shields.io/badge/Live-Demo-22c55e?style=flat-square&logo=vercel)](https://dreamvista.duckdns.org/)
 
-A hybrid NLP pipeline that blends **emotion classification** (transformer-based) with **LLM-driven thematic analysis** for dream journaling and pattern recognition.
+An AI-powered dream journaling and interpretation engine combining **transformer emotion classification** with **LLM-driven thematic analysis**.
 
-- 🔬 Embedding-based similarity search (MiniLM + cosine similarity) for semantic clustering
-- 🗄️ Scalable Django backend with longitudinal pattern analysis
-- 🤝 Groq API integration for fast, high-quality LLM inference
+- 🧠 Hybrid NLP: MiniLM embeddings + cosine similarity for semantic dream clustering
+- 😊 Emotion detection: Positive / Negative / Neutral tone classification
+- 🌀 Dream type tagging: Lucid Dreams, Nightmares, Symbolic Dreams
+- 🗄️ Longitudinal pattern analysis across sessions via Django backend
 
-`NLP` `LLM` `Transformers` `Django` `Semantic Search`
-
----
-
-### 🎭 Face Recognition Authentication System
-> *Python · OpenCV · Django · Jan–Mar 2025*
-
-Real-time biometric authentication pipeline that **eliminates manual login** with sub-second facial matching.
-
-- ⚡ Reduced auth time significantly via live feature extraction
-- 🗃️ Custom image dataset — collected, labelled, and trained end-to-end
-- 🎯 Iterative threshold tuning for reliable live-matching accuracy
-
-`Computer Vision` `OpenCV` `Face Recognition` `Django`
+`NLP` `LLM` `Gemini API` `Transformers` `Django` `Semantic Search`
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 Insurance Charges EDA & Analytics
-> *Python · Pandas · Matplotlib · Seaborn*
+#### 🤖 NEXUS — Desktop AI Assistant
+> *Python · Tkinter · Google GenAI · Speech*
+> &nbsp;[![Repo](https://img.shields.io/badge/GitHub-Repo-7c3aed?style=flat-square&logo=github)](https://github.com/prabalgautam05/Nexux-AI-assistant) [![Live](https://img.shields.io/badge/Live-Demo-22c55e?style=flat-square&logo=vercel)](https://nexusweb.duckdns.org/)
 
-End-to-end exploratory data analysis uncovering hidden cost drivers in structured insurance data.
+A full-featured desktop AI assistant with **voice control**, **system command execution**, and **real-time data feeds**.
 
-- 📌 Key finding: **smokers incur ~4× higher charges** with strong BMI interaction effects
-- 🗺️ Heatmaps, pair plots, and distribution analysis across age, BMI, region
-- 📝 Structured README with reproducible methodology documentation
+- 🎙️ Voice command recognition via `speech_recognition` + TTS via `pyttsx3`
+- ⚙️ System control: shutdown, restart, lock, CPU/RAM/battery monitoring
+- 🌐 Web search + weather + news APIs — live data on demand
+- 💾 Persistent chat history with export functionality
 
-`EDA` `Statistical Analysis` `Data Storytelling` `Feature Importance`
+`Google GenAI` `Speech Recognition` `TTS` `Tkinter` `API Integration`
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 🤖 Desktop AI Assistant
-> *Python · NLP · API Integration · Nov 2024–Jan 2025*
+### 👁️ Computer Vision
 
-A conversational desktop assistant with **real-time data feeds** and intelligent intent routing.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- 🌐 Live weather & news APIs — parsed and surfaced on demand
-- 🧩 NLP-based intent classification for smart query routing
-- 🖥️ Clean Tkinter GUI with structured response generation
+#### 🎭 FaceGate — Face Recognition Auth System
+> *Python · OpenCV · Django · Jan–Mar 2025*
+> &nbsp;[![Repo](https://img.shields.io/badge/GitHub-Repo-7c3aed?style=flat-square&logo=github)](https://github.com/prabalgautam05/flogin2)
 
-`NLP` `Intent Parsing` `API Integration` `Tkinter`
+Real-time biometric login system that **replaces passwords with faces** — built end-to-end from dataset collection to live deployment.
+
+- ⚡ OpenCV pipeline for real-time facial feature extraction
+- 🗃️ Custom dataset — collected, labelled, and validated iteratively
+- 🎯 Threshold tuning for reliable live-matching accuracy
+- 🔐 Django admin interface for user image management
+
+`Computer Vision` `OpenCV` `Face Recognition` `Django` `Biometrics`
+
+</td>
+<td width="50%" valign="top">
+
+#### 📊 Insurance Charges EDA
+> *Python · Pandas · Matplotlib · Seaborn*
+
+End-to-end exploratory data analysis surfacing hidden cost drivers in structured insurance data.
+
+- 📌 **Smokers incur ~4× higher charges** — quantified with interaction effects
+- 🗺️ Heatmaps, pair plots, distribution plots across age, BMI, region
+- 📐 Correlation analysis & feature importance evaluation
+- 📝 Fully documented with reproducible methodology README
+
+`EDA` `Statistical Analysis` `Data Storytelling` `Feature Importance`
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🌐 Full-Stack Web Applications
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 📣 Grievio — Complaint Management System
+> *Python · Django · Django REST Framework · Chart.js*
+> &nbsp;[![Repo](https://img.shields.io/badge/GitHub-Repo-7c3aed?style=flat-square&logo=github)](https://github.com/prabalgautam05/Grievio)
+
+A structured complaint lifecycle management platform with **analytics dashboards** and a full REST API.
+
+- 🔐 Role-based access control (RBAC) for multi-tier authorization
+- 🔍 Search & filter across complaint records for fast lookup
+- 📊 Chart.js dashboards for complaint statistics visualization
+- 🛠️ RESTful API with full CRUD, auth, and pagination support
+
+`Django` `REST API` `RBAC` `Chart.js` `Data Visualization`
+
+</td>
+<td width="50%" valign="top">
+
+#### 💳 Donation Page with Payment Integration
+> *Python · Django · Payment Gateways · Oct–Nov 2023*
+
+A secure, user-friendly **online donation platform** with multi-gateway payment support.
+
+- 💳 Multiple payment gateway integrations for donor flexibility
+- 🔒 End-to-end encryption of sensitive transaction data
+- ⚠️ Graceful error handling with clear user feedback on failures
+- 🎨 Clean, intuitive UI optimized for conversion and trust
+
+`Django` `Payment Integration` `Security` `HTML/CSS/JS`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 👤 Employee Management System
+> *Python · Django · MySQL · Bootstrap · Jan–Feb 2023*
+
+A comprehensive HR tool for **managing employee profiles** with secure authentication and database integration.
+
+- 🗂️ Full profile CRUD: name, role, contact info management
+- 🔐 Secure login system with session-based auth
+- 🗄️ MySQL backend for efficient employee data storage & retrieval
+- 📱 Bootstrap-responsive design for HR personnel workflows
+
+`Django` `MySQL` `Authentication` `Bootstrap` `CRUD`
+
+</td>
+<td width="50%" valign="top">
+
+#### 🖼️ Image Uploader — Employee Visual ID
+> *Python · Django · HTML/CSS · Mar–Apr 2023*
+
+A photo management feature built into an Employee Management System for **visual employee identification**.
+
+- 📤 Intuitive upload interface with multi-format image support
+- ✏️ Update / replace existing employee photos seamlessly
+- 🔧 Size validation & format enforcement for DB optimization
+- 🗃️ Contributed to a more organized and professional employee database
+
+`Django` `File Management` `Image Processing` `UX`
 
 </td>
 </tr>
